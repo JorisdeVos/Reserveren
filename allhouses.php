@@ -24,7 +24,7 @@
         		<div class="housesplit">
 	        		<b><?php echo $house["Name"]; ?></b>
 	        		<p><?php echo $house["Description"]; ?></p>
-	        		<p><?php echo $house["Price"]; ?>$ / Per dag</p>
+	        		<p><?php echo $house["Prijs"]; ?>$ / Per dag</p>
 	        		<button><a href="housedetail.php?id=<?php echo $house['Id']; ?>">Huis reserveren</a></button>
         		</div>
     		</div>
