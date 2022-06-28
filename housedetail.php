@@ -17,7 +17,7 @@
 			$houses = $statement->fetch(PDO::FETCH_ASSOC);
    		?>
 		<img src="<?php echo $houses['image']; ?>">
-		<?php echo $id ?>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur itaque est placeat dolore porro at quibusdam quo modi, maxime iste perferendis repudiandae ex iure beatae corrupti laborum sapiente maiores ipsa?
 	</div>
 </body>
 </html>
