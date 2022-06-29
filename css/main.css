@@ -103,12 +103,13 @@ textarea {
 
    .headerNav a{
     text-decoration: none;
+    border: 1px solid transparent;
     color: black;
    }
 
    .headerNav a:hover{
-  border: 1px solid #4bcaff;
-  color: #4bcaff;
+  border: 1px solid black;
+  color: black;
 }
 
    .headerNav img{
