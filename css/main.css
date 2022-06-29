@@ -91,6 +91,22 @@ textarea {
     font-family: Arial;
    }
 
+   .headerNav{
+    display: flex;
+    justify-self: center;
+    border: 1px solid black;
+    padding-left: 650px;
+   }
+
+   .headerNav a{
+    text-decoration: none;
+    color: black;
+   }
+
+   .headerNav img{
+    width: 25px;
+   }
+
    .topAllHouses{
     padding-top: 50px;
     padding-bottom: 50px;

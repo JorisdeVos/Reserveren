@@ -7,6 +7,7 @@
 	<title>Document</title>
 </head>
 <body>
+	<?php require_once 'header.php'; ?>
 	<div class="topAllHouses">
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet, quas mollitia atque rerum ad earum eius repudiandae, consectetur quisquam dolorem alias corporis facilis sequi, facere nemo officia nisi, sed.</p>
 	</div>
