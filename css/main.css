@@ -89,8 +89,8 @@ textarea {
 
    *{
     font-family: Arial;
-    margin: 0 auto;
    }
+
 
    .headerNav{
     display: flex;
@@ -151,13 +151,7 @@ textarea {
    }
 
    .midDetails{
-    background-image: url("../img/longHouse.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 300px;
-    margin-top: 50px;
-   }
+    }
 
 
 /* ==========================================================================
