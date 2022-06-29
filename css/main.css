@@ -91,6 +91,7 @@ textarea {
     font-family: Arial;
    }
 
+
    .headerNav{
     display: flex;
     justify-self: center;
@@ -155,13 +156,8 @@ textarea {
    }
 
    .midDetails{
-    background-image: url("../img/longHouse.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 300px;
-    margin-top: 50px;
-   }
+    }
+
 
 /* ==========================================================================
    Helper classes
