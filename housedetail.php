@@ -21,6 +21,20 @@
 	</div>
 	<div class="midDetails">
 	</div>
+	<div class="bottomDetails">
+		<div class="detailRound">
+			<p><?php echo $houses["name"]?></p>
+		</div>
+		<div class="detailRound">
+			<p><?php echo $houses["price"]?>$ Per dag</p>
+		</div>
+		<div class="detailRound">
+			<p><?php echo $houses["aderess"]?></p>
+		</div>
+	<div class="buyDetails">
+		<button>Kopen</button>
+	</div>
+	</div>
 </div>
 </body>
 </html>
