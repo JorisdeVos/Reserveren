@@ -2,11 +2,11 @@
 
 <header>
 	<div class="headerNav">
-		<img src="img/logo.jpeg">
+		<img src="<?php echo $base_url; ?>/img/logo.jpeg">
 		<nav>
-			<a href="allHouses.php">All houses</a> |
-			<a href="index.php">Home</a> |
-			<a href="login.php">Login</a>
+			<a href="<?php echo $base_url; ?>/allHouses.php">All houses</a> |
+			<a href="<?php echo $base_url; ?>/index.php">Home</a> |
+			<a href="<?php echo $base_url; ?>/login.php">Login</a>
 		</nav>
 	</div>
 </header>
