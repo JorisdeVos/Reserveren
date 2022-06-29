@@ -89,7 +89,6 @@ textarea {
 
    *{
     font-family: Arial;
-    margin: 0 auto;
    }
 
    .headerNav{
@@ -103,6 +102,11 @@ textarea {
     text-decoration: none;
     color: black;
    }
+
+   .headerNav a:hover{
+  border: 1px solid #4bcaff;
+  color: #4bcaff;
+}
 
    .headerNav img{
     width: 25px;
