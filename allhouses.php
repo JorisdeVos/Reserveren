@@ -21,15 +21,16 @@
       	?>
         <?php foreach($houses as $house): ?>
         	<div class="house">
-        		<img src="<?php echo $house["Image"]; ?>">
+        		<img src="<?php echo $house["image"]; ?>">
         		<div class="housesplit">
-	        		<b><?php echo $house["Name"]; ?></b>
-	        		<p><?php echo $house["Description"]; ?></p>
-	        		<p><?php echo $house["Prijs"]; ?>$ / Per dag</p>
+	        		<b><?php echo $house["name"]; ?></b>
+	        		<p><?php echo $house["description"]; ?></p>
+	        		<p><?php echo $house["price"]; ?>$ / Per dag</p>
 	        		<button><a href="housedetail.php?id=<?php echo $house['id']; ?>">Huis reserveren</a></button>
         		</div>
     		</div>
         <?php endforeach; ?>
 	</div>
+	<?php require_once 'footer.php'; ?>
 </body>
 </html>

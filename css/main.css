@@ -158,6 +158,10 @@ textarea {
    .midDetails{
     }
 
+   .footer{
+    display: flex;
+    justify-content: center;
+    }
 
 /* ==========================================================================
    Helper classes
