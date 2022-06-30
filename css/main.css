@@ -207,6 +207,16 @@ textarea {
    .container{
     margin-top: 30px;
    }
+
+   .createLink{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .createLink button{
+    font-size: 30px;
+   }
 /* ====
 /* ==========================================================================
    Helper classes
