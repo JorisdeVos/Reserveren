@@ -61,6 +61,6 @@ session_start();
         <?php endforeach; ?>
     </main>
     <footer>
-    	
+    	<?php require_once'../footer.php'; ?>
     </footer>
 </body>
