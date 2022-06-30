@@ -203,6 +203,10 @@ textarea {
     flex-direction: column;
     margin-top: 30px;
    }
+
+   .container{
+    margin-top: 30px;
+   }
 /* ====
 /* ==========================================================================
    Helper classes
