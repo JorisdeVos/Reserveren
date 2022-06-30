@@ -40,7 +40,7 @@ session_start();
                         <b><?php echo $house["name"]; ?></b>
                         <p><?php echo $house["description"]; ?></p>
                         <p><?php echo $house["price"]; ?>$ / Per dag</p>
-                        <button><a href="<?php echo $base_url; ?>/admin/edit.php?id=<?php echo $house["id"];?>">Edit</a></button>
+                        <a href="<?php echo $base_url; ?>/admin/edit.php?id=<?php echo $house["id"];?>"><button>Edit</button></a>
                     </div>
                 </div>
             <?php endforeach; ?>
