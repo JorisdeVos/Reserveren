@@ -53,6 +53,9 @@ session_start();
                         <label for="address">adres:</label>
                         <input type="text" name="address" id="address" value="<?php echo $house['aderess'];?>" >
                     </div>
+                    <div class="question">
+                    <input type="submit" value="updaten">
+                    </div>
                 </div>
             </form>
         <?php endforeach; ?>
