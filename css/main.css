@@ -141,7 +141,6 @@ textarea {
 
    .house{
     display: flex;
-    justify-content: space-evenly;
    }
 
    .topDetails{
