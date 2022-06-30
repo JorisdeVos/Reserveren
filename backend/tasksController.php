@@ -26,6 +26,12 @@ if ($action == "update")
         ":address" => $address,
         ":id" => $id
     ]);
-
-    header("location: ../admin/admin.php");
 }
+
+if ($action == "delete")
+{
+    $query = "DELETE FROM houses WHERE id = :id";
+    $statement = $conn->prepare($query);
+    $statement->execute([":id" => $id]);
+}
+    header("location: ../admin/admin.php");
