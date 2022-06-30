@@ -58,6 +58,13 @@ session_start();
                     </div>
                 </div>
             </form>
+            <form action="../backend/tasksController.php" method="POST">
+                <div class="editForm">
+                    <input type="hidden" name="action" value="delete">
+                    <input type="hidden" name="id" value="<?php echo $id; ?>">
+                    <input type="submit" value="delete">
+                </div>
+            </form>
         <?php endforeach; ?>
     </main>
     <footer>
