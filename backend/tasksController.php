@@ -12,11 +12,11 @@ $name = $_POST['name'];
 $description = $_POST['description'];
 $price = $_POST['price'];
 $address = $_POST['address'];
-$id = $_POST['id'];
 $action = $_POST['action'];
 
 if ($action == "update")
 {
+    $id = $_POST['id'];
     $query = "UPDATE houses SET name = :name, description = :description, price = :price, aderess = :address WHERE id = :id";
     $statement = $conn->prepare($query);
     $statement->execute([
@@ -30,8 +30,27 @@ if ($action == "update")
 
 if ($action == "delete")
 {
+    $id = $_POST['id'];
     $query = "DELETE FROM houses WHERE id = :id";
     $statement = $conn->prepare($query);
     $statement->execute([":id" => $id]);
 }
-    header("location: ../admin/admin.php");
+
+if ($action == "create")
+{
+    $imageTemp = $_POST['image'];
+    $image = "img/".$imageTemp.".png";
+
+    $query = "INSERT INTO houses (name, description, image, price, aderess)
+              VALUES (:name, :description, :image, :price, :address)";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":name" => $name,
+        ":description" => $description,
+        ":price" => $price,
+        ":address" => $address,
+        ":image" => $image
+    ]);
+}
+
+header("location: ../admin/admin.php");
