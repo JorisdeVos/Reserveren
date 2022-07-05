@@ -31,7 +31,7 @@
 			<p><?php echo $houses["aderess"]?></p>
 		</div>
 		<div class="buyDetails">
-			<button>Kopen</button>
+			<a href="invulformulier.php"><button>Kopen</button></a>
 		</div>
 	</div>
 </div>

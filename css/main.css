@@ -253,6 +253,27 @@ textarea {
    .createLink button{
     font-size: 30px;
    }
+
+   .formulierImage{
+    margin-left: 350px;
+   }
+
+   .formulierImage img{
+    width: 800px;
+   }
+
+   .form{
+    margin-left: 100px;
+    margin-top: 25px;
+   }
+
+   input, label{
+    display: block;
+   }
+
+   input {
+    margin-bottom: 10px;
+   }
 /* ====
 /* ==========================================================================
    Helper classes
