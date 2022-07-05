@@ -107,10 +107,43 @@ textarea {
    .headerNav a:hover{
   border: 1px solid #4bcaff;
   color: #4bcaff;
-}
+  }
 
    .headerNav img{
     width: 25px;
+   }
+
+   .homeUpper img{
+    width: 375px;
+   }
+
+   .homeUpper{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    box-shadow: 5px 10px;
+    border: 1px solid black; 
+   }
+
+   .homeMid{
+    border: 1px solid black; 
+    display: flex;
+    justify-self: center;
+    margin: 100px;
+    box-shadow: 5px 10px;
+   }
+
+   .homeUnder img{
+    width: 375px;
+   }
+
+   .homeUnder{
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+    order: 1;
+    box-shadow: 5px 10px;
+    margin: 100px;
    }
 
    .topAllHouses{
