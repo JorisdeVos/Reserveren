@@ -89,6 +89,8 @@ textarea {
 
    *{
     font-family: Arial;
+    margin: 0;
+    padding: 0;
    }
 
 
@@ -101,6 +103,7 @@ textarea {
 
    .headerNav a{
     text-decoration: none;
+    border: 1px solid transparent;
     color: black;
    }
 
@@ -171,7 +174,6 @@ textarea {
 
    .house{
     display: flex;
-    justify-content: space-evenly;
    }
 
    .topDetails{
@@ -188,14 +190,70 @@ textarea {
     margin-right: 15px;
    }
 
-   .midDetails{
-    }
+   .detailRound{
+      background-color: black;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 50px;
+      padding-left: 75px;
+      padding-right: 75px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: white;
+      margin-left: 50px;
+      margin-right: 50px;
+   }
 
    .footer{
     display: flex;
     justify-content: center;
     }
+.midDetails{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+  .editImage{
+    display: flex;
+    justify-content: center;
+   }
+
+   .editImage img{
+    width: 800px;
+    height: 450px;
+   }
+
+   .editForm{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+   }
+
+   .question{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+   }
+
+   .container{
+    margin-top: 30px;
+   }
+
+   .createLink{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .createLink button{
+    font-size: 30px;
+   }
+/* ====
 /* ==========================================================================
    Helper classes
    ========================================================================== */

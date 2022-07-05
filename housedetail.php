@@ -7,6 +7,7 @@
 	<title>Document</title>
 </head>
 <body>
+	<?php require_once 'header.php'; ?>
 	<div class="topDetails">
 		<?php
 			$id = $_GET['id']; 
