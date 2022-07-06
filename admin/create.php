@@ -1,11 +1,11 @@
 <?php 
 session_start();
-// if(!($_SESSION['admin'] == true) || !isset($_SESSION['user_id']))
-// {
-//     $msg="u mag deze pagina niet bekijken"; 
-//     header("Location: login.php?msg=$msg");
-//     exit;
-// }
+if(!isset($_SESSION['user_id']))
+{
+    $msg="u mag deze pagina niet bekijken"; 
+    header("Location: ../login.php?msg=$msg");
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
